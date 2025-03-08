@@ -21,4 +21,5 @@ Build packer `packer build .`
 CD into the terraform directory and initialize it with `terraform init`  
 Validate it `terraform validate`  
 Apply the changes `terraform apply`  
-Terraform will then prompt you to confirm the changes if you are happy enter `yes`  
+Terraform will then prompt you to confirm the changes if you are happy enter `yes` 
+After everything is finished and you are no longer using the infastructure clean up and use `terraform destroy`
